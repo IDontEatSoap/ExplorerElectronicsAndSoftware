@@ -1,0 +1,12 @@
+2025-02-05 19:52:39,471 - panelizer_logger - INFO - Running Panelizer
+2025-02-05 19:52:39,473 - panelizer_logger - INFO - ['--panelx', '100.000000', '--panely', '100.000000', '--smaller', '--vscorelayer', 'User.Comments', '--vscoretextlayer', 'User.Comments', '--gapx', '0.000000', '--gapy', '0.000000']
+2025-02-05 19:52:39,474 - panelizer_logger - INFO - PANELIZER START: 2025-02-05T19:52:39.474203
+2025-02-05 19:52:41,459 - panelizer_logger - ERROR - 
+START: 2025-02-05T19:52:39.474203
+Board saved by user.
+
+Board: C:\Source\ExplorerElectronicsAndSoftware\ESP32 Door Controller\Production\Door Controller_panelized.kicad_pcb
+Board dimensions: 64.10 x 100.00 mm.
+Panel size is too small for board. Quitting.
+
+2025-02-05 19:52:42,931 - panelizer_logger - INFO - Panelizer complete

@@ -1,4 +1,0 @@
-(sym_lib_table
-  (version 7)
-  (lib (name "Explorer")(type "KiCad")(uri "${KIPRJMOD}/Explorer.kicad_sym")(options "")(descr ""))
-)

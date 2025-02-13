@@ -1,0 +1,39 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP NE555DR
+D Single Precision Timer
+K
+F http://www.ti.com/lit/ds/symlink/ne555.pdf
+$ENDCMP
+#
+$CMP MIC4606-2YTS-TR
+D Gate Drivers 85V Full Bridge FET Driver
+K
+F https://eu.mouser.com/datasheet/2/268/20005604B-1286645.pdf
+$ENDCMP
+#
+$CMP MIC4606-2YML-TR
+D Gate Drivers 85V Full Bridge FET Driver
+K
+F http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en579238
+$ENDCMP
+#
+$CMP MIC4606-1YML-TR
+D Gate Drivers
+K
+F https://datasheet.datasheetarchive.com/originals/distributors/DKDS-15/280559.pdf
+$ENDCMP
+#
+$CMP SIJ482DP-T1-GE3
+D Vishay SIJ482DP-T1-GE3 N-channel MOSFET Transistor, 60 A, 80 V, 5-Pin PowerPAK SO-8L
+K
+F https://componentsearchengine.com/Datasheets/1/SIJ482DP-T1-GE3.pdf
+$ENDCMP
+#
+$CMP RJ45-8N3-S
+D Modular Connectors / Ethernet Connectors 6 TRMN LOW PRFL PCB 8 PIN SLEEVE INDUCTR
+K
+F https://www.arrow.com/en/products/rj45-8n3-s/te-connectivity
+$ENDCMP
+#
+#End Doc Library

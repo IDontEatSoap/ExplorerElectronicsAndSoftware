@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "Vishay")(type "KiCad")(uri "${KIPRJMOD}/ul_SQJ182EP-T1-GE3/KiCADv6/2025-01-28_00-36-13.kicad_sym")(options "")(descr ""))
+)

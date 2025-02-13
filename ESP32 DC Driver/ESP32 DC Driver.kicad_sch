@@ -1,0 +1,3481 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "851bc4ec-a8d8-4b1c-8d28-e056334c6dd7")
+	(paper "A3")
+	(title_block
+		(title "ESP32 DC Motor Driver")
+		(rev "1")
+		(company "Divster")
+	)
+	(lib_symbols
+		(symbol "Connector:Conn_01x02_Socket"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x02_Socket"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x02, script generated"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x02_Socket_1_1"
+				(arc
+					(start 0 -2.032)
+					(mid -0.5058 -2.54)
+					(end 0 -3.048)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -2.54) (xy -0.508 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy -0.508 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 0.508)
+					(mid -0.5058 0)
+					(end 0 -0.508)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 92.71 81.28) (xy 96.52 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "00f91ec5-53fe-40c2-bee6-1225b191501a")
+	)
+	(wire
+		(pts
+			(xy 50.8 86.36) (xy 54.61 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "08ecba96-876f-46c1-9775-bd2f9f952982")
+	)
+	(wire
+		(pts
+			(xy 229.87 105.41) (xy 229.87 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "091271e2-e986-422a-abca-daec0d5b00c0")
+	)
+	(wire
+		(pts
+			(xy 92.71 96.52) (xy 96.52 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09df5a1d-88cd-44b8-8cef-f6e6ec0d6ba2")
+	)
+	(wire
+		(pts
+			(xy 93.98 157.48) (xy 97.79 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c44c7b2-14eb-416a-be7e-5fea314c85ab")
+	)
+	(wire
+		(pts
+			(xy 251.46 93.98) (xy 255.27 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e44ae4a-5974-41dd-86aa-ce6cfa4a2812")
+	)
+	(wire
+		(pts
+			(xy 71.12 110.49) (xy 71.12 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ee490bf-2f98-4f5d-8e96-eea489fddde4")
+	)
+	(wire
+		(pts
+			(xy 227.33 179.07) (xy 227.33 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ef10cb4-76f7-4809-a596-946e57401a90")
+	)
+	(wire
+		(pts
+			(xy 209.55 76.2) (xy 213.36 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ff69cad-1029-48b6-bb80-1ca1d2732b98")
+	)
+	(wire
+		(pts
+			(xy 50.8 81.28) (xy 54.61 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19b18deb-3d33-4e23-952f-25d7482d0fd1")
+	)
+	(wire
+		(pts
+			(xy 229.87 179.07) (xy 229.87 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20da35a8-23fd-4705-941d-1b6aec40aaaf")
+	)
+	(wire
+		(pts
+			(xy 92.71 86.36) (xy 96.52 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2105b8a2-84e5-4c14-ab59-5a1f48ef4c3e")
+	)
+	(wire
+		(pts
+			(xy 224.79 179.07) (xy 224.79 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "217590a6-6610-4576-bf6a-5a3bf3b7699d")
+	)
+	(wire
+		(pts
+			(xy 92.71 99.06) (xy 96.52 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a7b707a-5c25-49f2-80c3-fcbaebc78dab")
+	)
+	(wire
+		(pts
+			(xy 69.85 186.69) (xy 69.85 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "31df49bd-7c16-4d21-aa67-642acfeb4ac0")
+	)
+	(wire
+		(pts
+			(xy 92.71 101.6) (xy 96.52 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "31fe46fa-c890-4117-bb97-98815e292f33")
+	)
+	(wire
+		(pts
+			(xy 209.55 149.86) (xy 213.36 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "324c45b2-5e87-407b-91f6-8b819687cc4a")
+	)
+	(wire
+		(pts
+			(xy 93.98 160.02) (xy 97.79 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40ca4956-da76-46d7-a4bd-9d8f88324fcc")
+	)
+	(wire
+		(pts
+			(xy 209.55 152.4) (xy 213.36 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41eca5b9-3c3f-459a-b212-04215d8b5047")
+	)
+	(wire
+		(pts
+			(xy 209.55 154.94) (xy 213.36 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "483d9291-fddb-4a21-a798-f8dcf3978679")
+	)
+	(wire
+		(pts
+			(xy 50.8 101.6) (xy 54.61 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c293dde-06ae-4d36-a48f-1074f3d468ff")
+	)
+	(wire
+		(pts
+			(xy 251.46 96.52) (xy 255.27 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e422171-76f4-456c-ae96-74c3e22c0b5f")
+	)
+	(wire
+		(pts
+			(xy 251.46 152.4) (xy 255.27 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f6c4f0f-f796-42bc-b2b3-81ded1ad03bc")
+	)
+	(wire
+		(pts
+			(xy 93.98 162.56) (xy 97.79 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "544bd352-d326-4369-b58c-283b48b57388")
+	)
+	(wire
+		(pts
+			(xy 93.98 177.8) (xy 97.79 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "573e3449-1ce1-4c16-ba07-6319463d707a")
+	)
+	(wire
+		(pts
+			(xy 251.46 76.2) (xy 255.27 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58979ade-937e-4797-a113-11aaa39703e5")
+	)
+	(wire
+		(pts
+			(xy 251.46 91.44) (xy 255.27 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5cc56475-8d30-45ee-9971-4fbe84346b1f")
+	)
+	(wire
+		(pts
+			(xy 251.46 170.18) (xy 255.27 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6087b6f6-657f-4083-8559-06817244b4bb")
+	)
+	(wire
+		(pts
+			(xy 209.55 167.64) (xy 213.36 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6343c75e-3201-4e9c-9ff9-130563cccff4")
+	)
+	(wire
+		(pts
+			(xy 251.46 149.86) (xy 255.27 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63721fc3-4097-4e99-9def-fd4a63067479")
+	)
+	(wire
+		(pts
+			(xy 52.07 162.56) (xy 55.88 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b2b5be4-b30c-4133-8e48-2cb8d5e8f494")
+	)
+	(wire
+		(pts
+			(xy 251.46 167.64) (xy 255.27 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6cf1e6ba-f963-4703-95f9-19c28b9bf5e2")
+	)
+	(wire
+		(pts
+			(xy 209.55 91.44) (xy 213.36 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "76f188c9-b4a8-4a11-aff8-e2e49cc69388")
+	)
+	(wire
+		(pts
+			(xy 251.46 78.74) (xy 255.27 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7808be0c-45bd-4697-8d0c-ddb344ce298b")
+	)
+	(wire
+		(pts
+			(xy 66.04 110.49) (xy 66.04 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7abb0cdf-d346-4dd2-8d01-c0aa3a181ddb")
+	)
+	(wire
+		(pts
+			(xy 52.07 175.26) (xy 55.88 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80128528-0555-447e-b8de-8d2d4b4c122f")
+	)
+	(wire
+		(pts
+			(xy 232.41 179.07) (xy 232.41 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "815a2d53-53ca-4a21-8851-0d4e690a9904")
+	)
+	(wire
+		(pts
+			(xy 251.46 154.94) (xy 255.27 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86af3ac5-1478-4d0a-8d51-f24bc5dbc7db")
+	)
+	(wire
+		(pts
+			(xy 74.93 186.69) (xy 74.93 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a17557e-e9f6-4776-a9be-a17dcfcad742")
+	)
+	(wire
+		(pts
+			(xy 93.98 172.72) (xy 97.79 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9fa7724d-3182-4dd8-a362-c569588fac33")
+	)
+	(wire
+		(pts
+			(xy 251.46 165.1) (xy 255.27 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a028b087-547d-4d33-bcf4-5829f8b4b48e")
+	)
+	(wire
+		(pts
+			(xy 209.55 165.1) (xy 213.36 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6a0db6f-74dd-4bed-9697-f84c4f6ff9e0")
+	)
+	(wire
+		(pts
+			(xy 227.33 105.41) (xy 227.33 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa10a3d8-e6e2-4fbc-96d5-497d2e314f5c")
+	)
+	(wire
+		(pts
+			(xy 52.07 172.72) (xy 55.88 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac1d0801-b1d7-451a-b462-e77ab04d888c")
+	)
+	(wire
+		(pts
+			(xy 67.31 186.69) (xy 67.31 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af5cb320-7ff9-439e-95bd-cd4dff004cd1")
+	)
+	(wire
+		(pts
+			(xy 224.79 105.41) (xy 224.79 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "afa52b46-34a2-43c0-8769-90376a6e8cfd")
+	)
+	(wire
+		(pts
+			(xy 209.55 170.18) (xy 213.36 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6732d33-fa0a-4cfe-b03e-0e616df40b24")
+	)
+	(wire
+		(pts
+			(xy 251.46 81.28) (xy 255.27 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b810c2ac-5862-461d-b86b-a93154096ce8")
+	)
+	(wire
+		(pts
+			(xy 209.55 81.28) (xy 213.36 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8c797e1-cfe5-4a93-8cc1-20a31333bf52")
+	)
+	(wire
+		(pts
+			(xy 209.55 93.98) (xy 213.36 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb57018b-19dc-4aef-bf7f-9a4a6923f821")
+	)
+	(wire
+		(pts
+			(xy 52.07 177.8) (xy 55.88 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bed115f9-ba23-475c-9bdc-aa596070cff6")
+	)
+	(wire
+		(pts
+			(xy 73.66 110.49) (xy 73.66 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0eb7063-9172-400e-a5cd-3a06d709fbd9")
+	)
+	(wire
+		(pts
+			(xy 93.98 175.26) (xy 97.79 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca18a16c-f01e-4839-8bbc-6520fad4735e")
+	)
+	(wire
+		(pts
+			(xy 52.07 160.02) (xy 55.88 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb4764dd-2f64-4d6d-b687-0fbd73260eee")
+	)
+	(wire
+		(pts
+			(xy 50.8 96.52) (xy 54.61 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d404ee85-64f9-4591-a6fc-ab8f9905f73c")
+	)
+	(wire
+		(pts
+			(xy 232.41 105.41) (xy 232.41 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d6d83c45-c29f-477b-8885-1e1c4e40d2ee")
+	)
+	(wire
+		(pts
+			(xy 209.55 96.52) (xy 213.36 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8725bd9-69d2-42ea-a4d4-daadde3b1d9e")
+	)
+	(wire
+		(pts
+			(xy 50.8 99.06) (xy 54.61 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2ceac90-b558-4d91-ad50-cc74ee227b2c")
+	)
+	(wire
+		(pts
+			(xy 50.8 83.82) (xy 54.61 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e31881d6-0fca-4661-a614-352b8094d57b")
+	)
+	(wire
+		(pts
+			(xy 52.07 157.48) (xy 55.88 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e83d5cec-12fd-4ff8-b368-b6875dfcd27e")
+	)
+	(wire
+		(pts
+			(xy 72.39 186.69) (xy 72.39 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e8d055f7-46a3-4bbc-9b97-738c894b4abc")
+	)
+	(wire
+		(pts
+			(xy 209.55 78.74) (xy 213.36 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f0fbab52-f8cf-4025-ae01-dbd454bb0ca4")
+	)
+	(wire
+		(pts
+			(xy 92.71 83.82) (xy 96.52 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe4a7043-0a58-4499-a442-dc46271b64d3")
+	)
+	(wire
+		(pts
+			(xy 68.58 110.49) (xy 68.58 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff2071db-c6d9-43f3-be6e-9c84def25e4e")
+	)
+	(global_label "Motor 1 BHI"
+		(shape input)
+		(at 66.04 110.49 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2867f4be-bf04-4ffc-a90b-3a0123aa7b0c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 66.04 125.0865 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Motor 1 AHI"
+		(shape input)
+		(at 73.66 110.49 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "35fd575b-bb46-4391-abe8-b5f7706bd78c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 73.66 124.9051 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Motor 2 ALI"
+		(shape input)
+		(at 229.87 105.41 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3b08579e-d59c-4c35-a0a3-d2e2a7b81377")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 229.87 119.5227 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Motor 3 ALI"
+		(shape input)
+		(at 72.39 186.69 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3c2e38f6-60e4-45fa-8e14-a054aa7ed3fd")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 72.39 200.8027 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Motor 3 BHI"
+		(shape input)
+		(at 67.31 186.69 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5928b5af-27c2-4f17-bd1c-22bedc8ed034")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 67.31 201.2865 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Motor 2 BHI"
+		(shape input)
+		(at 224.79 105.41 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7ca9c6ee-7b4d-40cd-937f-2a356db91ca9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 224.79 120.0065 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Motor 3 AHI"
+		(shape input)
+		(at 74.93 186.69 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7d39a344-45db-4df2-9005-62150390d001")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 74.93 201.1051 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Motor 4 BHI"
+		(shape input)
+		(at 224.79 179.07 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ad5c15bf-1159-457f-8008-f309f4a34e98")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 224.79 193.6665 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Motor 3 BLI"
+		(shape input)
+		(at 69.85 186.69 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "bc90dfff-0814-42e7-80b5-bbd8e819b86f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 69.85 200.9841 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Motor 4 ALI"
+		(shape input)
+		(at 229.87 179.07 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c0e325b0-c6c4-4b2d-9faf-a1601e814381")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 229.87 193.1827 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Motor 1 ALI"
+		(shape input)
+		(at 71.12 110.49 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ce989377-1003-4f25-af8b-8129ccecaffe")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 71.12 124.6027 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Motor 1 BLI"
+		(shape input)
+		(at 68.58 110.49 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d4eec4c9-48e5-442d-a062-1020cc1c1ff9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 68.58 124.7841 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Motor 4 BLI"
+		(shape input)
+		(at 227.33 179.07 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "dfc7ecac-7249-447f-a398-1a6437e08fca")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 227.33 193.3641 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Motor 2 AHI"
+		(shape input)
+		(at 232.41 105.41 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e0471a21-fb1b-481c-911d-500c26c7f028")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 232.41 119.8251 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Motor 4 AHI"
+		(shape input)
+		(at 232.41 179.07 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e1283db8-f49f-49cf-883d-695245dbfa8b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 232.41 193.4851 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Motor 2 BLI"
+		(shape input)
+		(at 227.33 105.41 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e32034b2-7044-4842-9b71-a18b85759df4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 227.33 119.7041 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x02_Socket")
+		(at 81.28 109.22 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3b71f344-85ee-4cdb-92e0-6ec1ca93160b")
+		(property "Reference" "J1"
+			(at 82.55 107.3149 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "H Bridge 1 Out"
+			(at 82.55 109.8549 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 81.28 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 81.28 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 81.28 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "0262afd0-6a3f-4a33-9ed6-bef9d1819ae1")
+		)
+		(pin "1"
+			(uuid "f51e9865-a56a-414c-b2a1-481671a35e0c")
+		)
+		(instances
+			(project ""
+				(path "/851bc4ec-a8d8-4b1c-8d28-e056334c6dd7"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x02_Socket")
+		(at 237.49 104.14 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "97961443-591e-4707-b6ca-6aa7510333f1")
+		(property "Reference" "J3"
+			(at 243.332 103.378 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "H Bridge 3 Out"
+			(at 251.968 105.664 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 237.49 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 237.49 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 237.49 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "41f5d270-c8aa-479e-8ce2-27c2110d3733")
+		)
+		(pin "2"
+			(uuid "ede0c6d6-9c21-4e9c-839d-0f1e88e81d99")
+		)
+		(instances
+			(project "ESP32 DC Driver"
+				(path "/851bc4ec-a8d8-4b1c-8d28-e056334c6dd7"
+					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x02_Socket")
+		(at 82.55 185.42 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "adfaab57-58ed-46db-861b-09edf795edea")
+		(property "Reference" "J2"
+			(at 83.82 183.5149 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "H Bridge 2 Out"
+			(at 83.82 186.0549 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 82.55 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 82.55 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 82.55 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7d158f64-4570-4469-884b-95db2b054037")
+		)
+		(pin "2"
+			(uuid "2126181f-a440-4de7-b037-4318b2b20aca")
+		)
+		(instances
+			(project ""
+				(path "/851bc4ec-a8d8-4b1c-8d28-e056334c6dd7"
+					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x02_Socket")
+		(at 240.03 177.8 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ae2c0da7-c270-4742-b22f-32f29c3b5f93")
+		(property "Reference" "J4"
+			(at 241.3 175.8949 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "H Bridge 4 Out"
+			(at 241.3 178.4349 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 240.03 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 240.03 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 240.03 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8f01c0b7-7633-4a28-8833-03d0cee151dd")
+		)
+		(pin "2"
+			(uuid "389dc8b0-7859-4097-9257-a534acc95571")
+		)
+		(instances
+			(project "ESP32 DC Driver"
+				(path "/851bc4ec-a8d8-4b1c-8d28-e056334c6dd7"
+					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 54.61 78.74)
+		(size 38.1 25.4)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "09e333d9-1228-4aef-bac6-f2af62150349")
+		(property "Sheetname" "H Bridge 1"
+			(at 54.61 78.0284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "MIC4606 H Bridge Circuit.kicad_sch"
+			(at 54.61 104.7246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "M AHG" input
+			(at 54.61 81.28 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "977328fa-531b-43b6-b073-2a971177f0c6")
+		)
+		(pin "M ALG" input
+			(at 54.61 96.52 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "6d3704c5-08a0-49a8-8205-bfb233e81afb")
+		)
+		(pin "M AHS" input
+			(at 54.61 83.82 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "6d6adbe5-d114-46ec-b9ad-e8c5f9decba3")
+		)
+		(pin "M AHD" input
+			(at 54.61 86.36 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "64c72fc9-6e0b-4cfa-93f6-79f9b68b7ef4")
+		)
+		(pin "M BHD" input
+			(at 92.71 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "5f69660e-9146-43f3-8cc4-092c34fea276")
+		)
+		(pin "M BHS" input
+			(at 92.71 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "4f296a31-9c4a-4631-a896-781b8bc5c2d0")
+		)
+		(pin "M ALS" input
+			(at 54.61 99.06 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "89d7343d-24a2-4d49-917f-9a7bb396d427")
+		)
+		(pin "M ALD" input
+			(at 54.61 101.6 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "164d3e16-1c2e-4a62-ad6c-7972dacbcfe4")
+		)
+		(pin "M BLS" input
+			(at 92.71 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "675b9a6b-1a79-4bfe-aebb-a9f6c581c5b1")
+		)
+		(pin "M BLD" input
+			(at 92.71 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "254468aa-6e48-4b79-a4ae-255be1b176cf")
+		)
+		(pin "M BLG" input
+			(at 92.71 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "2c7a34da-aa67-4cf4-9932-c8981d6a1682")
+		)
+		(pin "M BHG" input
+			(at 92.71 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "f010fc38-c975-464b-bbbb-5b7bd31baaea")
+		)
+		(pin "BHI" input
+			(at 66.04 104.14 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "e8701015-6438-46af-8c6e-0668d7514f08")
+		)
+		(pin "BLI" input
+			(at 68.58 104.14 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "a315c1e6-380b-4ea0-bb63-2c8bf2ee888b")
+		)
+		(pin "ALI" input
+			(at 71.12 104.14 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "0c320dae-43b9-4acd-ac5f-8d3599669e31")
+		)
+		(pin "AHI" input
+			(at 73.66 104.14 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "e678f908-e273-449f-bb87-4861ec8473bf")
+		)
+		(pin "Out+" input
+			(at 78.74 104.14 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "fcd1b55a-0678-4da7-a495-3ab0e4f48985")
+		)
+		(pin "Out-" input
+			(at 81.28 104.14 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "b6788414-45e5-4c0e-be5a-31a68fdc7ef7")
+		)
+		(instances
+			(project "ESP32 DC Driver"
+				(path "/851bc4ec-a8d8-4b1c-8d28-e056334c6dd7"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 97.79 171.45)
+		(size 12.7 7.62)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "0d18c4cf-6f88-426e-87f3-9364a0aad3a3")
+		(property "Sheetname" "BL3"
+			(at 97.79 170.7384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Vishay SQJ182EP.kicad_sch"
+			(at 97.79 179.6546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "S" input
+			(at 97.79 175.26 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "135351d7-4129-4c51-9513-0dd35b516981")
+		)
+		(pin "G" input
+			(at 97.79 172.72 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "05465ab5-1606-43cf-bcae-208fc77947c0")
+		)
+		(pin "D" input
+			(at 97.79 177.8 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "ef53d925-81ca-49b6-b46c-16b2865722b4")
+		)
+		(instances
+			(project "ESP32 DC Driver"
+				(path "/851bc4ec-a8d8-4b1c-8d28-e056334c6dd7"
+					(page "11")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 255.27 163.83)
+		(size 12.7 7.62)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "18449b19-277e-4164-8789-371ba9a28e8a")
+		(property "Sheetname" "BL4"
+			(at 255.27 163.1184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Vishay SQJ182EP.kicad_sch"
+			(at 255.27 172.0346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "S" input
+			(at 255.27 167.64 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "7cc4e8d6-ee39-4377-9611-80b0906af0ba")
+		)
+		(pin "G" input
+			(at 255.27 165.1 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "ab4b5b1d-6938-4f8e-897b-18e724424e86")
+		)
+		(pin "D" input
+			(at 255.27 170.18 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "af5847a8-8be4-4be9-a608-dd8f7d42c067")
+		)
+		(instances
+			(project "ESP32 DC Driver"
+				(path "/851bc4ec-a8d8-4b1c-8d28-e056334c6dd7"
+					(page "19")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 255.27 148.59)
+		(size 12.7 7.62)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "1868af6f-8bd9-4e02-ad9d-b8e12e90ad6c")
+		(property "Sheetname" "BH4"
+			(at 255.27 147.8784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Vishay SQJ182EP.kicad_sch"
+			(at 255.27 156.7946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "S" input
+			(at 255.27 152.4 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "c5f385fb-6884-4b94-923f-b0c2ac66607d")
+		)
+		(pin "G" input
+			(at 255.27 149.86 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "82231501-db8d-435d-bbf0-874603f8ddb0")
+		)
+		(pin "D" input
+			(at 255.27 154.94 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "38898584-6538-4a9d-9bef-4d3911719786")
+		)
+		(instances
+			(project "ESP32 DC Driver"
+				(path "/851bc4ec-a8d8-4b1c-8d28-e056334c6dd7"
+					(page "18")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 255.27 90.17)
+		(size 12.7 7.62)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "1d806a0f-a4ef-481a-98ff-b80a0a3bc8aa")
+		(property "Sheetname" "BL2"
+			(at 255.27 89.4584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Vishay SQJ182EP.kicad_sch"
+			(at 255.27 98.3746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "S" input
+			(at 255.27 93.98 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "3bc6676c-0abd-4cd4-bdd6-a33f3e826ee2")
+		)
+		(pin "G" input
+			(at 255.27 91.44 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "058fc075-1582-4ce5-a4fc-c80822f25ebe")
+		)
+		(pin "D" input
+			(at 255.27 96.52 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "19e71be7-238c-489c-9dd1-b0637fde942f")
+		)
+		(instances
+			(project "ESP32 DC Driver"
+				(path "/851bc4ec-a8d8-4b1c-8d28-e056334c6dd7"
+					(page "14")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 196.85 90.17)
+		(size 12.7 7.62)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "20f31ad5-67dc-4f71-8d80-2e67b737f70a")
+		(property "Sheetname" "AL2"
+			(at 209.804 89.662 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Sheetfile" "Vishay SQJ182EP.kicad_sch"
+			(at 194.056 98.552 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify top)
+			)
+		)
+		(pin "S" input
+			(at 209.55 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "22ab7a0d-1f38-4614-be35-a8bcaf1f3370")
+		)
+		(pin "G" input
+			(at 209.55 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "476e7659-3e81-4c54-8823-f423a36808fa")
+		)
+		(pin "D" input
+			(at 209.55 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "fb7aef62-49be-41b5-8f27-50eec2ae3e6f")
+		)
+		(instances
+			(project "ESP32 DC Driver"
+				(path "/851bc4ec-a8d8-4b1c-8d28-e056334c6dd7"
+					(page "12")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 97.79 156.21)
+		(size 12.7 7.62)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "2535089d-4528-4a89-8404-ea1e6f794e96")
+		(property "Sheetname" "BH3"
+			(at 97.79 155.4984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Vishay SQJ182EP.kicad_sch"
+			(at 97.79 164.4146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "S" input
+			(at 97.79 160.02 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "f69a8177-ca8e-406c-a625-73ad7657ec8a")
+		)
+		(pin "G" input
+			(at 97.79 157.48 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "ff1c85c6-3852-4d1c-89a4-3c3009da274e")
+		)
+		(pin "D" input
+			(at 97.79 162.56 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "a4c55b13-6398-48a2-9443-adee8444c4c2")
+		)
+		(instances
+			(project "ESP32 DC Driver"
+				(path "/851bc4ec-a8d8-4b1c-8d28-e056334c6dd7"
+					(page "10")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 213.36 73.66)
+		(size 38.1 25.4)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "2566e840-f756-4cba-91db-233ca5a33dfd")
+		(property "Sheetname" "H Bridge 2"
+			(at 213.36 72.9484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "MIC4606 H Bridge Circuit.kicad_sch"
+			(at 213.36 99.6446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "M AHG" input
+			(at 213.36 76.2 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "6f2390cc-9a9e-43b9-8921-c187f54fba33")
+		)
+		(pin "M ALG" input
+			(at 213.36 91.44 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "e42f49fe-f16c-4c25-9884-4532e8012894")
+		)
+		(pin "M AHS" input
+			(at 213.36 78.74 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "188ac47c-7d1b-46f7-b6b8-8c0d3ae84f36")
+		)
+		(pin "M AHD" input
+			(at 213.36 81.28 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "1c7a9248-9c22-451c-aab3-1437b2997891")
+		)
+		(pin "M BHD" input
+			(at 251.46 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "0df2a998-27d6-47f0-9c95-56f2dbce3eb7")
+		)
+		(pin "M BHS" input
+			(at 251.46 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "2b6346a1-2d10-441a-ac3d-356e13aa7b61")
+		)
+		(pin "M ALS" input
+			(at 213.36 93.98 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "f8a35e9c-bcf9-483e-8877-db4f44281073")
+		)
+		(pin "M ALD" input
+			(at 213.36 96.52 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "7d68a91e-0f04-46a6-a638-9845381cf0e2")
+		)
+		(pin "M BLS" input
+			(at 251.46 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "9881d3b9-a734-4ace-a32f-ca657d81ab80")
+		)
+		(pin "M BLD" input
+			(at 251.46 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "83a6ac82-f1f3-4785-aa83-b8099d20c3a9")
+		)
+		(pin "M BLG" input
+			(at 251.46 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "00ace59f-af07-4f66-860d-e921976a5817")
+		)
+		(pin "M BHG" input
+			(at 251.46 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "2d8dbac7-debb-40af-97b6-c40a8375cd3c")
+		)
+		(pin "BHI" input
+			(at 224.79 99.06 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "f167acca-e897-46ae-977e-9123f3830228")
+		)
+		(pin "BLI" input
+			(at 227.33 99.06 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "ddc00186-0e9a-4724-80ed-6ea9af0a20b4")
+		)
+		(pin "ALI" input
+			(at 229.87 99.06 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "dba7fc53-c816-489b-9a9a-55638ccff7ea")
+		)
+		(pin "AHI" input
+			(at 232.41 99.06 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "ca5f9c3c-cec2-4384-9fed-43eab604c9e3")
+		)
+		(pin "Out+" input
+			(at 237.49 99.06 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "aab66ec9-fc27-4205-8051-ad61b7bb7ccb")
+		)
+		(pin "Out-" input
+			(at 240.03 99.06 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "80a0fb08-5339-4567-8063-45ff2d36511d")
+		)
+		(instances
+			(project "ESP32 DC Driver"
+				(path "/851bc4ec-a8d8-4b1c-8d28-e056334c6dd7"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 196.85 163.83)
+		(size 12.7 7.62)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "65e15df1-94ee-4395-bebc-5c71b6e254e6")
+		(property "Sheetname" "AL4"
+			(at 209.804 163.322 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Sheetfile" "Vishay SQJ182EP.kicad_sch"
+			(at 194.056 172.212 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify top)
+			)
+		)
+		(pin "S" input
+			(at 209.55 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "b20772f7-6b85-4fa8-b5c1-1900d1518fd9")
+		)
+		(pin "G" input
+			(at 209.55 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "30767e29-0f6b-4db6-a26f-55a751fe23ae")
+		)
+		(pin "D" input
+			(at 209.55 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "ab3b938d-d172-4f3f-a85f-7c82c046527f")
+		)
+		(instances
+			(project "ESP32 DC Driver"
+				(path "/851bc4ec-a8d8-4b1c-8d28-e056334c6dd7"
+					(page "17")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 55.88 154.94)
+		(size 38.1 25.4)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "6bc3d0f7-aeff-400d-a980-f751d103cb94")
+		(property "Sheetname" "H Bridge 3"
+			(at 55.88 154.2284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "MIC4606 H Bridge Circuit.kicad_sch"
+			(at 55.88 180.9246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "M AHG" input
+			(at 55.88 157.48 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "02a7dbc9-387d-4372-8cd7-92985f804422")
+		)
+		(pin "M ALG" input
+			(at 55.88 172.72 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "b3f8c00d-4688-4bb5-be81-3c15c16b8978")
+		)
+		(pin "M AHS" input
+			(at 55.88 160.02 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "dd52e13f-53c7-45f0-91c4-c3c89318223c")
+		)
+		(pin "M AHD" input
+			(at 55.88 162.56 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "f0687c26-0dda-407c-abe8-6ae5f6840088")
+		)
+		(pin "M BHD" input
+			(at 93.98 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "fbc84f28-036c-4ec4-b87c-449b628c8c49")
+		)
+		(pin "M BHS" input
+			(at 93.98 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "22ec940c-4d38-422e-b0e7-7b9a4a400050")
+		)
+		(pin "M ALS" input
+			(at 55.88 175.26 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "0ed0805a-5e77-438a-aea4-bfaa5814b16f")
+		)
+		(pin "M ALD" input
+			(at 55.88 177.8 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "c5cda01a-47d6-4bc2-8fa6-162adef89846")
+		)
+		(pin "M BLS" input
+			(at 93.98 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "2bdb2492-1b04-4db3-9770-e3de6ca8b0f4")
+		)
+		(pin "M BLD" input
+			(at 93.98 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "ef0450a6-06c0-4ebc-aa42-fea56c83c15d")
+		)
+		(pin "M BLG" input
+			(at 93.98 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "73ee7a81-ff44-4cf0-b1b6-dbaea51dd211")
+		)
+		(pin "M BHG" input
+			(at 93.98 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "8704868e-2efd-473a-9711-80836c693089")
+		)
+		(pin "BHI" input
+			(at 67.31 180.34 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "d2e5d583-f277-4fd9-9755-568f0ac6d530")
+		)
+		(pin "BLI" input
+			(at 69.85 180.34 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "ad75b980-6dd5-42b3-aa55-ebf110a787ff")
+		)
+		(pin "ALI" input
+			(at 72.39 180.34 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "d13717a8-4e42-446e-8ef8-7aba7028263b")
+		)
+		(pin "AHI" input
+			(at 74.93 180.34 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "c1036ed5-cefd-4847-8bda-75bbeaf0aa9d")
+		)
+		(pin "Out+" input
+			(at 80.01 180.34 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "0c5ebc55-d0fc-4950-9f3d-f479d6dd76aa")
+		)
+		(pin "Out-" input
+			(at 82.55 180.34 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "78b0a701-da07-494d-a93f-26c44a714518")
+		)
+		(instances
+			(project "ESP32 DC Driver"
+				(path "/851bc4ec-a8d8-4b1c-8d28-e056334c6dd7"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 39.37 156.21)
+		(size 12.7 7.62)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "7e5b6bf4-72fd-4c5c-923c-1a0d7d164e04")
+		(property "Sheetname" "AH3"
+			(at 52.324 155.702 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Sheetfile" "Vishay SQJ182EP.kicad_sch"
+			(at 36.576 164.592 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify top)
+			)
+		)
+		(pin "S" input
+			(at 52.07 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "78e92aca-3908-4cac-b930-fd5db80f7cf7")
+		)
+		(pin "G" input
+			(at 52.07 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "52b3230c-5c5e-4351-a944-80ae80ebfe98")
+		)
+		(pin "D" input
+			(at 52.07 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "0f88acb0-5f93-4d0b-94ec-d462a9c6e26c")
+		)
+		(instances
+			(project "ESP32 DC Driver"
+				(path "/851bc4ec-a8d8-4b1c-8d28-e056334c6dd7"
+					(page "40")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 196.85 148.59)
+		(size 12.7 7.62)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "921d5403-be89-423c-843d-35a8dc6a4d85")
+		(property "Sheetname" "AH4"
+			(at 209.804 148.082 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Sheetfile" "Vishay SQJ182EP.kicad_sch"
+			(at 194.056 156.972 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify top)
+			)
+		)
+		(pin "S" input
+			(at 209.55 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "1f607198-a384-43fd-b8d4-f927002ce8e5")
+		)
+		(pin "G" input
+			(at 209.55 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "79848491-de20-4215-afb0-495652a056bd")
+		)
+		(pin "D" input
+			(at 209.55 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "9cb3ffb3-cde2-4255-9916-b846ecf794dd")
+		)
+		(instances
+			(project "ESP32 DC Driver"
+				(path "/851bc4ec-a8d8-4b1c-8d28-e056334c6dd7"
+					(page "16")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 196.85 74.93)
+		(size 12.7 7.62)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "a0c00039-1701-4f45-ade0-624015766f04")
+		(property "Sheetname" "AH2"
+			(at 209.804 74.422 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Sheetfile" "Vishay SQJ182EP.kicad_sch"
+			(at 194.056 83.312 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify top)
+			)
+		)
+		(pin "S" input
+			(at 209.55 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "e58b9dff-f95a-47bc-9a48-9fcaf23eea75")
+		)
+		(pin "G" input
+			(at 209.55 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "931ff7e4-514a-4e08-9a67-fecf229dc641")
+		)
+		(pin "D" input
+			(at 209.55 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "da2f1148-e2a1-4c00-a394-9f485c1b5d77")
+		)
+		(instances
+			(project "ESP32 DC Driver"
+				(path "/851bc4ec-a8d8-4b1c-8d28-e056334c6dd7"
+					(page "30")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 39.37 171.45)
+		(size 12.7 7.62)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "b37da010-414d-4f87-9468-384a31f71433")
+		(property "Sheetname" "AL3"
+			(at 52.324 170.942 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Sheetfile" "Vishay SQJ182EP.kicad_sch"
+			(at 36.576 179.832 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify top)
+			)
+		)
+		(pin "S" input
+			(at 52.07 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "49075f24-6d4e-4413-9e71-5dd49add0696")
+		)
+		(pin "G" input
+			(at 52.07 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "9184a122-323c-404f-9a35-90a0f78de13a")
+		)
+		(pin "D" input
+			(at 52.07 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "dcf7153e-b34b-4f30-9c83-89251ba744aa")
+		)
+		(instances
+			(project "ESP32 DC Driver"
+				(path "/851bc4ec-a8d8-4b1c-8d28-e056334c6dd7"
+					(page "9")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 96.52 95.25)
+		(size 12.7 7.62)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "bcba2438-b2b8-4f08-8580-a247e5860ae1")
+		(property "Sheetname" "BL1"
+			(at 96.52 94.5384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Vishay SQJ182EP.kicad_sch"
+			(at 96.52 103.4546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "S" input
+			(at 96.52 99.06 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "089118fa-c934-4023-b975-d491741e790d")
+		)
+		(pin "G" input
+			(at 96.52 96.52 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "3e0ebc41-f54d-4881-a13e-ffd3c5c2b01d")
+		)
+		(pin "D" input
+			(at 96.52 101.6 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "564a8428-6408-4d5c-ad95-31f6073e1035")
+		)
+		(instances
+			(project "ESP32 DC Driver"
+				(path "/851bc4ec-a8d8-4b1c-8d28-e056334c6dd7"
+					(page "51")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 139.7 46.99)
+		(size 12.7 3.81)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "c4eec573-92f0-416e-aebb-0ae542b5a773")
+		(property "Sheetname" "Power Delivery"
+			(at 139.7 46.2784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Power Delivery.kicad_sch"
+			(at 139.7 51.3846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ESP32 DC Driver"
+				(path "/851bc4ec-a8d8-4b1c-8d28-e056334c6dd7"
+					(page "60")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 38.1 95.25)
+		(size 12.7 7.62)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "f43bc73f-a9e3-420a-b665-952c1b0d1ee4")
+		(property "Sheetname" "AL1"
+			(at 51.054 94.742 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Sheetfile" "Vishay SQJ182EP.kicad_sch"
+			(at 35.306 103.632 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify top)
+			)
+		)
+		(pin "S" input
+			(at 50.8 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "da5f4940-bbc8-4e73-a0c7-b15d69e61ba7")
+		)
+		(pin "G" input
+			(at 50.8 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "17d59fbd-9b23-4396-88d1-a5468960f1dc")
+		)
+		(pin "D" input
+			(at 50.8 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "518ee876-c32a-4990-8586-91e8f937672d")
+		)
+		(instances
+			(project "ESP32 DC Driver"
+				(path "/851bc4ec-a8d8-4b1c-8d28-e056334c6dd7"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 40.64 52.07)
+		(size 12.7 3.81)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "f4c72447-2a97-47c8-8e72-744354ee93c1")
+		(property "Sheetname" "ESP32 Pin Mappings"
+			(at 40.64 51.3584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ESP32 Pin Mappings.kicad_sch"
+			(at 40.64 56.4646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ESP32 DC Driver"
+				(path "/851bc4ec-a8d8-4b1c-8d28-e056334c6dd7"
+					(page "30")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 96.52 80.01)
+		(size 12.7 7.62)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "f4d2d70a-c9b0-420c-abe2-ede8e0acf53f")
+		(property "Sheetname" "BH1"
+			(at 96.52 79.2984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Vishay SQJ182EP.kicad_sch"
+			(at 96.52 88.2146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "S" input
+			(at 96.52 83.82 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "e6819266-0f21-47ea-8cbb-2b2cb8a249c9")
+		)
+		(pin "G" input
+			(at 96.52 81.28 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "adda69ef-83b3-4193-be2c-294d74d50b59")
+		)
+		(pin "D" input
+			(at 96.52 86.36 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "fd051592-229a-4ef3-b75e-aa81d7f869b6")
+		)
+		(instances
+			(project "ESP32 DC Driver"
+				(path "/851bc4ec-a8d8-4b1c-8d28-e056334c6dd7"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 213.36 147.32)
+		(size 38.1 25.4)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "fd6b0f58-71f1-4c87-a319-e3a4e8be7ab0")
+		(property "Sheetname" "H Bridge 4"
+			(at 213.36 146.6084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "MIC4606 H Bridge Circuit.kicad_sch"
+			(at 213.36 173.3046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "M AHG" input
+			(at 213.36 149.86 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "502b7686-4c2f-4086-a6ea-2c24d2049c7d")
+		)
+		(pin "M ALG" input
+			(at 213.36 165.1 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "7b925cad-72c4-48b1-b3ca-e23c59616cac")
+		)
+		(pin "M AHS" input
+			(at 213.36 152.4 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "5861d896-08cd-4dd9-ae19-36d2cdee8661")
+		)
+		(pin "M AHD" input
+			(at 213.36 154.94 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "b624e719-de55-4063-866e-0bd0f068b920")
+		)
+		(pin "M BHD" input
+			(at 251.46 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "49f21a68-a9eb-43bb-90da-f12539106cba")
+		)
+		(pin "M BHS" input
+			(at 251.46 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "5ad26ed2-f9c1-480d-bf13-8d9a8e8ba5d3")
+		)
+		(pin "M ALS" input
+			(at 213.36 167.64 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "f0ad44ec-7a32-4214-91fe-afa6b79f7464")
+		)
+		(pin "M ALD" input
+			(at 213.36 170.18 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "58eb6863-5a45-4b33-bfd8-b2c6cc44783f")
+		)
+		(pin "M BLS" input
+			(at 251.46 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "62e3979e-2aa0-4816-9579-83d50a66649b")
+		)
+		(pin "M BLD" input
+			(at 251.46 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "4ddc9f46-baa5-4899-94b6-0730066f5b97")
+		)
+		(pin "M BLG" input
+			(at 251.46 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "505273c9-8e4c-4cd4-916d-f8fd7fdef2dc")
+		)
+		(pin "M BHG" input
+			(at 251.46 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "23c0e3ea-cd2a-453d-a3cf-b39ace89c4a7")
+		)
+		(pin "BHI" input
+			(at 224.79 172.72 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "58c8ff88-3e3d-4d8a-afd4-911e07603bfc")
+		)
+		(pin "BLI" input
+			(at 227.33 172.72 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "7a7a8ade-a922-4655-b111-bae394757d8b")
+		)
+		(pin "ALI" input
+			(at 229.87 172.72 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "a9b894ca-37fa-4fc2-9d42-55a08cfcc047")
+		)
+		(pin "AHI" input
+			(at 232.41 172.72 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "3e2ea311-30b4-40e3-9966-d4ce1b52ba26")
+		)
+		(pin "Out+" input
+			(at 237.49 172.72 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "fda84165-7170-4bf4-be1b-d1d73138bb6d")
+		)
+		(pin "Out-" input
+			(at 240.03 172.72 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "543f378f-de2d-4418-8f4b-a5271b6792be")
+		)
+		(instances
+			(project "ESP32 DC Driver"
+				(path "/851bc4ec-a8d8-4b1c-8d28-e056334c6dd7"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 255.27 74.93)
+		(size 12.7 7.62)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "fdbb2845-ac09-4832-8ee7-006b20298d22")
+		(property "Sheetname" "BH2"
+			(at 255.27 74.2184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Vishay SQJ182EP.kicad_sch"
+			(at 255.27 83.1346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "S" input
+			(at 255.27 78.74 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "e2cb237d-b38d-4155-aadc-7e8be10ddb78")
+		)
+		(pin "G" input
+			(at 255.27 76.2 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "7112c4b9-5832-4081-8c16-afb1bc4d00ed")
+		)
+		(pin "D" input
+			(at 255.27 81.28 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "a9e69e29-a043-4b8d-9da9-113f82103f97")
+		)
+		(instances
+			(project "ESP32 DC Driver"
+				(path "/851bc4ec-a8d8-4b1c-8d28-e056334c6dd7"
+					(page "13")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 38.1 80.01)
+		(size 12.7 7.62)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "fed3d4ea-9958-4b9e-bac3-1c600971f853")
+		(property "Sheetname" "AH1"
+			(at 51.054 79.502 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Sheetfile" "Vishay SQJ182EP.kicad_sch"
+			(at 35.306 88.392 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify top)
+			)
+		)
+		(pin "S" input
+			(at 50.8 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "c1813a43-09c2-49e8-9e53-e0837b5ad365")
+		)
+		(pin "G" input
+			(at 50.8 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "f2f147df-afe5-4521-a9b3-ed2849aec32e")
+		)
+		(pin "D" input
+			(at 50.8 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "9508ea81-da22-4146-baaa-f5a0e8f0d7dc")
+		)
+		(instances
+			(project "ESP32 DC Driver"
+				(path "/851bc4ec-a8d8-4b1c-8d28-e056334c6dd7"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)

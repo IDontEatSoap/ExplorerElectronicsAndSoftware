@@ -1,0 +1,195 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model NE555DR
+#/6648/2/2.37/8/4/Integrated Circuit
+DEF NE555DR IC 0 30 Y Y 1 F N
+F0 "IC" 1050 600 50 H V L CNN
+F1 "NE555DR" 1050 500 50 H V L CNN
+F2 "SOIC127P600X175-8N" 1050 400 50 H I L CNN
+F3 "http://www.ti.com/lit/ds/symlink/ne555.pdf" 1050 300 50 H I L CNN
+F4 "Single Precision Timer" 1050 200 50 H I L CNN "Description"
+F5 "1.75" 1050 100 50 H I L CNN "Height"
+F6 "Texas Instruments" 1050 0 50 H I L CNN "Manufacturer_Name"
+F7 "NE555DR" 1050 -100 50 H I L CNN "Manufacturer_Part_Number"
+F8 "595-NE555DR" 1050 -200 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.com/Search/Refine.aspx?Keyword=595-NE555DR" 1050 -300 50 H I L CNN "Mouser Price/Stock"
+F10 "1218414" 1050 -400 50 H I L CNN "RS Part Number"
+F11 "http//uk.rs-online.com/web/p/products/1218414" 1050 -500 50 H I L CNN "RS Price/Stock"
+DRAW
+X GND 1 600 -1000 200 U 50 50 0 0 B
+X TRIG 2 0 -400 200 R 50 50 0 0 B
+X OUT 3 1200 -200 200 L 50 50 0 0 B
+X ~RESET 4 0 0 200 R 50 50 0 0 B
+X CONT 5 500 600 200 D 50 50 0 0 B
+X THRES 6 0 -300 200 R 50 50 0 0 B
+X DISCH 7 0 -100 200 R 50 50 0 0 B
+X VCC 8 700 600 200 D 50 50 0 0 B
+P 5 0 1 6 200 400 1000 400 1000 -800 200 -800 200 400 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model MIC4606-2YTS-TR
+#/520599/1589040/2.50/16/4/Integrated Circuit
+DEF MIC4606-2YTS-TR IC 0 30 Y Y 1 F N
+F0 "IC" 950 300 50 H V L CNN
+F1 "MIC4606-2YTS-TR" 950 200 50 H V L CNN
+F2 "SOP65P640X120-16N" 950 100 50 H I L CNN
+F3 "https://eu.mouser.com/datasheet/2/268/20005604B-1286645.pdf" 950 0 50 H I L CNN
+F4 "Gate Drivers 85V Full Bridge FET Driver" 950 -100 50 H I L CNN "Description"
+F5 "1.2" 950 -200 50 H I L CNN "Height"
+F6 "Microchip" 950 -300 50 H I L CNN "Manufacturer_Name"
+F7 "MIC4606-2YTS-TR" 950 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "579-MIC4606-2YTS-TR" 950 -500 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/Microchip-Technology/MIC4606-2YTS-TR?qs=fxR7EJxuiMGiGNq6G0IdXQ%3D%3D" 950 -600 50 H I L CNN "Mouser Price/Stock"
+F10 "MIC4606-2YTS-TR" 950 -700 50 H I L CNN "Arrow Part Number"
+F11 "https://www.arrow.com/en/products/mic4606-2yts-tr/microchip-technology?region=nac" 950 -800 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X BHB 1 0 0 200 R 50 50 0 0 P
+X EN 2 0 -100 200 R 50 50 0 0 P
+X BPWM 3 0 -200 200 R 50 50 0 0 P
+X NC_1 4 0 -300 200 R 50 50 0 0 P
+X NC_2 5 0 -400 200 R 50 50 0 0 P
+X APWM 6 0 -500 200 R 50 50 0 0 P
+X NC_3 7 0 -600 200 R 50 50 0 0 P
+X AHB 8 0 -700 200 R 50 50 0 0 P
+X BHO 16 1100 0 200 L 50 50 0 0 P
+X BHS 15 1100 -100 200 L 50 50 0 0 P
+X BLO 14 1100 -200 200 L 50 50 0 0 P
+X VSS 13 1100 -300 200 L 50 50 0 0 P
+X VDD 12 1100 -400 200 L 50 50 0 0 P
+X ALO 11 1100 -500 200 L 50 50 0 0 P
+X AHS 10 1100 -600 200 L 50 50 0 0 P
+X AHO 9 1100 -700 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 900 100 900 -800 200 -800 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model MIC4606-2YML-TR
+#/1209795/1589040/2.50/17/3/Integrated Circuit
+DEF MIC4606-2YML-TR IC 0 30 Y Y 1 F N
+F0 "IC" 1050 600 50 H V L CNN
+F1 "MIC4606-2YML-TR" 1050 500 50 H V L CNN
+F2 "QFN65P400X400X90-17N-D" 1050 400 50 H I L CNN
+F3 "http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en579238" 1050 300 50 H I L CNN
+F4 "Gate Drivers 85V Full Bridge FET Driver" 1050 200 50 H I L CNN "Description"
+F5 "0.9" 1050 100 50 H I L CNN "Height"
+F6 "Microchip" 1050 0 50 H I L CNN "Manufacturer_Name"
+F7 "MIC4606-2YML-TR" 1050 -100 50 H I L CNN "Manufacturer_Part_Number"
+F8 "998-MIC4606-2YMLTR" 1050 -200 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/Microchip-Technology/MIC4606-2YML-TR?qs=U6T8BxXiZAXbBSyJRhixLg%3D%3D" 1050 -300 50 H I L CNN "Mouser Price/Stock"
+F10 "MIC4606-2YML-TR" 1050 -400 50 H I L CNN "Arrow Part Number"
+F11 "https://www.arrow.com/en/products/mic4606-2yml-tr/microchip-technology" 1050 -500 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X NC_1 1 0 0 200 R 50 50 0 0 P
+X AHB 2 0 -100 200 R 50 50 0 0 P
+X AHO 3 0 -200 200 R 50 50 0 0 P
+X AHS 4 0 -300 200 R 50 50 0 0 P
+X ALO 5 400 -900 200 U 50 50 0 0 P
+X VDD 6 500 -900 200 U 50 50 0 0 P
+X VSS 7 600 -900 200 U 50 50 0 0 P
+X BLO 8 700 -900 200 U 50 50 0 0 P
+X EN 12 1200 0 200 L 50 50 0 0 P
+X BHB 11 1200 -100 200 L 50 50 0 0 P
+X BHO 10 1200 -200 200 L 50 50 0 0 P
+X BHS 9 1200 -300 200 L 50 50 0 0 P
+X EP 17 400 600 200 D 50 50 0 0 P
+X APWM 16 500 600 200 D 50 50 0 0 P
+X NC_3 15 600 600 200 D 50 50 0 0 P
+X NC_2 14 700 600 200 D 50 50 0 0 P
+X BPWM 13 800 600 200 D 50 50 0 0 P
+P 5 0 1 6 200 400 1000 400 1000 -700 200 -700 200 400 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model MIC4606-1YML-TR
+#/1209796/1589040/2.50/17/3/Integrated Circuit
+DEF MIC4606-1YML-TR IC 0 30 Y Y 1 F N
+F0 "IC" 850 600 50 H V L CNN
+F1 "MIC4606-1YML-TR" 850 500 50 H V L CNN
+F2 "QFN65P400X400X90-17N-D" 850 400 50 H I L CNN
+F3 "https://datasheet.datasheetarchive.com/originals/distributors/DKDS-15/280559.pdf" 850 300 50 H I L CNN
+F4 "Gate Drivers" 850 200 50 H I L CNN "Description"
+F5 "0.9" 850 100 50 H I L CNN "Height"
+F6 "998-MIC4606-1YMLTR" 850 0 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Microchip-Technology/MIC4606-1YML-TR?qs=U6T8BxXiZAXalBb2vTFF3w%3D%3D" 850 -100 50 H I L CNN "Mouser Price/Stock"
+F8 "Microchip" 850 -200 50 H I L CNN "Manufacturer_Name"
+F9 "MIC4606-1YML-TR" 850 -300 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X NC 1 0 0 200 R 50 50 0 0 N
+X AHB 2 0 -100 200 R 50 50 0 0 P
+X AHO 3 0 -200 200 R 50 50 0 0 P
+X AHS 4 0 -300 200 R 50 50 0 0 P
+X ALO 5 300 -900 200 U 50 50 0 0 P
+X VDD 6 400 -900 200 U 50 50 0 0 P
+X VSS 7 500 -900 200 U 50 50 0 0 P
+X BLO 8 600 -900 200 U 50 50 0 0 P
+X EN 12 1000 0 200 L 50 50 0 0 P
+X BHB 11 1000 -100 200 L 50 50 0 0 P
+X BHO 10 1000 -200 200 L 50 50 0 0 P
+X BHS 9 1000 -300 200 L 50 50 0 0 P
+X GND 17 300 600 200 D 50 50 0 0 P
+X AHI 16 400 600 200 D 50 50 0 0 P
+X ALI 15 500 600 200 D 50 50 0 0 P
+X BLI 14 600 600 200 D 50 50 0 0 P
+X BHI 13 700 600 200 D 50 50 0 0 P
+P 5 0 1 6 200 400 800 400 800 -700 200 -700 200 400 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model SIJ482DP-T1-GE3
+#/403607/1589040/2.50/8/4/MOSFET (N-Channel)
+DEF SIJ482DP-T1-GE3 Q 0 30 Y Y 1 F N
+F0 "Q" 850 300 50 H V L CNN
+F1 "SIJ482DP-T1-GE3" 850 200 50 H V L CNN
+F2 "SIJ482DPT1GE3" 850 100 50 H I L CNN
+F3 "https://componentsearchengine.com/Datasheets/1/SIJ482DP-T1-GE3.pdf" 850 0 50 H I L CNN
+F4 "Vishay SIJ482DP-T1-GE3 N-channel MOSFET Transistor, 60 A, 80 V, 5-Pin PowerPAK SO-8L" 850 -100 50 H I L CNN "Description"
+F5 "1.14" 850 -200 50 H I L CNN "Height"
+F6 "78-SIJ482DP-T1-GE3" 850 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Vishay-Semiconductors/SIJ482DP-T1-GE3?qs=EihRZLdKnF3y0bKttzLmIg%3D%3D" 850 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "Vishay" 850 -500 50 H I L CNN "Manufacturer_Name"
+F9 "SIJ482DP-T1-GE3" 850 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X S_1 1 0 0 200 R 50 50 0 0 P
+X S_2 2 0 -100 200 R 50 50 0 0 P
+X S_3 3 0 -200 200 R 50 50 0 0 P
+X G 4 0 -300 200 R 50 50 0 0 P
+X D_1 5 1000 0 200 L 50 50 0 0 P
+X D_2 6 1000 -100 200 L 50 50 0 0 P
+X D_3 7 1000 -200 200 L 50 50 0 0 P
+X D_4 8 1000 -300 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 800 100 800 -400 200 -400 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model RJ45-8N3-S
+#/1153063/1589040/2.50/10/4/Connector
+DEF RJ45-8N3-S J 0 30 Y Y 1 F N
+F0 "J" 750 300 50 H V L CNN
+F1 "RJ45-8N3-S" 750 200 50 H V L CNN
+F2 "RJ458N3S" 750 100 50 H I L CNN
+F3 "https://www.arrow.com/en/products/rj45-8n3-s/te-connectivity" 750 0 50 H I L CNN
+F4 "Modular Connectors / Ethernet Connectors 6 TRMN LOW PRFL PCB 8 PIN SLEEVE INDUCTR" 750 -100 50 H I L CNN "Description"
+F5 "13.334" 750 -200 50 H I L CNN "Height"
+F6 "TE Connectivity" 750 -300 50 H I L CNN "Manufacturer_Name"
+F7 "RJ45-8N3-S" 750 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "592-RJ45-8N3-S" 750 -500 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.com/Search/Refine.aspx?Keyword=592-RJ45-8N3-S" 750 -600 50 H I L CNN "Mouser Price/Stock"
+F10 "RJ45-8N3-S" 750 -700 50 H I L CNN "Arrow Part Number"
+F11 "https://www.arrow.com/en/products/rj45-8n3-s/te-connectivity" 750 -800 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X 1 1 0 0 200 R 50 50 0 0 P
+X 2 2 0 -100 200 R 50 50 0 0 P
+X 3 3 0 -200 200 R 50 50 0 0 P
+X 4 4 0 -300 200 R 50 50 0 0 P
+X 5 5 0 -400 200 R 50 50 0 0 P
+X 6 6 900 0 200 L 50 50 0 0 P
+X 7 7 900 -100 200 L 50 50 0 0 P
+X 8 8 900 -200 200 L 50 50 0 0 P
+X MH3 MH3 900 -300 200 L 50 50 0 0 P
+X MH4 MH4 900 -400 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 700 100 700 -500 200 -500 200 100 N
+ENDDRAW
+ENDDEF
+#
+#End Library

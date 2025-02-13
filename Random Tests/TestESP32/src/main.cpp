@@ -22,15 +22,16 @@ void setup() {
       stepper->setEnablePin(enablePinStepper);
       stepper->setAutoEnable(true);
 
-      int rpm = 700;
-      int rotations = 10;
+      int rpm = 1000;
+      int rotations = 1;
       int reduction = 50;
       int microstep = 16;
-      int accelerationIndex = 10;
+      int accelerationIndex = 50;
 
       stepper->setSpeedInHz(200*microstep*rpm/60);       // 500 steps/s
       stepper->setAcceleration(accelerationIndex*200*microstep);    // 100 steps/s²      
       stepper->move(200*microstep*rotations*reduction);
+
    }
 }
 
